@@ -1,15 +1,17 @@
 #include <iostream>
+using namespace std;
 int main(){
     int m,n,a;
+    cin>>m>>n>>a;
     int x,y;
     if(m%a!=0)
-        x=m//a+1;
+        x=m/a+1;
     else 
-        x=m//a;
+        x=m/a;
     if(n%a!=0)
-        y=n//a+1;
+        y=n/a+1;
     else 
-        y=n//a;
-    cout<<x*y;
+        y=n/a;
+    cout<<x*y<<endl;
     return 0;
 }
